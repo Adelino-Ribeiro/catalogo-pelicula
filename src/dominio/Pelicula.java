@@ -45,7 +45,7 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "Pelicula [nome=" + nome + "]";
+        return this.nome;
     }
 
    public static void main (String[] ags) {
